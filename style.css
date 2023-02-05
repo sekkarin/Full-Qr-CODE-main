@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, #00B2FF , #26CFC5);
+    margin-top: 20px;
+}
+h1{
+    font-family: inter;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    font-family: inter;
+    font-size: 18px;
+}
+select{ 
+    
+    border:groove #26CFC5 ;
+    height: 37px;
+    
+}
+input{
+    border: #26CFC5;
+}
+
+user-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #00B2FF , #26CFC5);
+  color: white;
+  font-family: inter;
+  width: 30rem;
+  height: auto;
+}
+
+.drop {
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #00B2FF , #26CFC5);
+    font-family: inter;
+    width: 10rem;
+    height: 2.3rem
+}
+
+.input_medic{
+    width: auto;
+    height: auto;
+}
+
+#qrcode-container{
+    display:none;
+}
+
+.qrcode{
+  padding: 16px;
+  margin-bottom: 30px;
+}
+.qrcode img{
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
+  padding: 120px;
+}
+
+.qrcode button  {
+    background: linear-gradient(to right, #00B2FF , #26CFC5);
+    width: 36.9rem;
+    height: 3rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.qrcode button a {
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-family: inter;
+    width: 30rem;
+    height: auto;
+}
+
+
